@@ -1,16 +1,16 @@
 # xd0615
 学习笔记：
-1.简单使用git将仓库进行更新。使用一些基本指令。
-  cd ：浏览指令    ls :将文件中的文件目录列出   vim：编辑
-  git add （文件）+git commit -m “更新缘由”：将文件编辑结果保存并记录更新缘由
-  git push：将文件编辑的结果上传到github账户的对应仓库中
-  cat ：查询相应文件的内容
-  git clone ：将github的仓库的文件下载到本地
-2.利用搜索引擎了解如何设置ssh-keygen
- 在git bash上输入ssh-keygen -t rsa -C ”your-email@example.com“
-      （1）-t是密钥类型，默认是rsa，在此处可省略
-      （2）-C设置注释文字，比如邮箱等
-      （3）-f制定密钥文件存储文件名，上面省略了，运行上面的命令则会让你继续输入一个文件名，用来保存ssh-Keygen代码。如果不输入文件名，使用默认文件名（推荐），那么就会生成id_rsa和id_rsa.pub两个文件。接下来要你设置push文件时所需要的密码，可以直接两次回车则下次push时无需密码。
+1.简单使用git将仓库进行更新。使用一些基本指令。     
+  cd ：浏览指令    ls :将文件中的文件目录列出   vim：编辑   
+  git add （文件）+git commit -m “更新缘由”：将文件编辑结果保存并记录更新缘由  
+  git push：将文件编辑的结果上传到github账户的对应仓库中  
+  cat ：查询相应文件的内容   
+  git clone ：将github的仓库的文件下载到本地  
+2.利用搜索引擎了解如何设置ssh-keygen    
+ 在git bash上输入ssh-keygen -t rsa -C ”your-email@example.com“   
+      （1）-t是密钥类型，默认是rsa，在此处可省略  
+      （2）-C设置注释文字，比如邮箱等      
+      （3）-f制定密钥文件存储文件名，上面省略了，运行上面的命令则会让你继续输入一个文件名，用来保存ssh-Keygen代码。如果不输入文件名，使用默认文件名（推荐），那么就会生成id_rsa和id_rsa.pub两个文件。接下来要你设置push文件时所需要的密码，可以直接两次回车则下次push时无需密码。  
 
 
 意见建议：
